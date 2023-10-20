@@ -1,0 +1,79 @@
+/* GENERAL */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(21,121,9,1) 0%, rgba(28,64,71,1) 67%);
+}
+
+/* IMAGEN */
+
+
+.imgDiv img {
+    width: 450px;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 55px -12px rgba(0,0,0,0.75);
+}
+
+/* LETRAS  */
+
+.divLetras {
+    font-size: 35px;
+    margin: 1rem;
+    color: whitesmoke;
+}
+
+.btnStart {
+    font-size: 1.5rem;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* SECTION LETRAS  */
+
+.letras {
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 55px -12px rgba(0,0,0,0.75);
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
+
+.btnLetra {
+    background-color: lightblue;
+    margin: 6px;
+    color: black;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.btnLetra:disabled {
+    background-color: lightcoral;
+}
+
+
+.vidas {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+.time {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import "./nextLevel.css";
+import "../componentes/nextLevel.css";
 import { useNavigate } from "react-router-dom";
-import { arrayPalabras } from "../../palabras";
-import { letras } from "../../letras";
+import { arrayPalabras } from "./palabras";
+import { letras } from "./letras";
 
 const NextLevel = ({
   secretWord,

@@ -1,5 +1,5 @@
 import React from 'react';
-import './StartPage.css'
+import '../pages/startpage.css'
 import { Navigate, useNavigate } from 'react-router-dom';
 
 const StartPage = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './gameOverModal.css'
+import '../componentes/gameOverModal.css'
 import { Navigate, useNavigate } from 'react-router-dom';
 
 const GameOver = ({ palabra }) => {

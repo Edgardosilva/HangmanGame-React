@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import './styles/general.css'
-import { arrayPalabras } from '../palabras'
-import { letras } from '../letras'
-import GameOver from './componentes/GameOverModal'
-import NextLevel from './componentes/NextLevel'
-import Win from './componentes/Win'
+import { arrayPalabras } from './componentes/palabras'
+import { letras } from './componentes/letras'
+import GameOver from '../Frontend/componentes/GameOverModal'
+import NextLevel from '../Frontend/componentes/NextLevel'
+import Win from '../Frontend/componentes/Win'
 
 
 function App() {

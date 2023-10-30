@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
-import './win.css'
+import '../componentes/win.css'
 
 
 const Win = ({ seconds, minutes }) => {

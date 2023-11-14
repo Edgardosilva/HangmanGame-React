@@ -1,8 +1,8 @@
 # HangmanGame-React
-The famous hangman game, created with JavaScript, HTML, CSS ReactJS, Node js and MySql
+The famous hangman game created using JavaScript, HTML, CSS, ReactJS, Node.js, and MySQL.
 
 # IMPORTANT
-1) You need to create a database on MySql with this code:
+1) You need to create a database in MySQL using the following code:
 
 CREATE TABLE Usuarios (
     ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -16,7 +16,7 @@ CREATE TABLE TiemposJuego (
     FOREIGN KEY (UsuarioID) REFERENCES Usuarios(ID)
 );
 
-2) Create a ds.js archive on the backend directory with this code
+2) Create a 'db.js' file in the backend directory and add the following code.
 
 import { createPool } from "mysql2/promise";
 

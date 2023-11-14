@@ -1,5 +1,11 @@
 export const arrayPalabras = 
 [
     'SQL',
-    'WEB'
+    'WEB',
+    'REACT',
+    'JSON',
+    'BOOTSTRAP',
+    'NODE',
+    'GIT',
+    'COMMIT',
 ]

@@ -23,7 +23,7 @@ const NextLevel = ({
       }
       console.log(arrayPalabras);
       setVidas(7);
-      setUrlImg("./images/img0.png");
+      setUrlImg("./src/Frontend/images/img0.png");
       letrasCuadros();
       setBtnesLetra(letras);
       div.style.display = "none";
